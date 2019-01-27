@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--<meta property="og:title" content="" />-->
+    <!--<meta property="og:url" content="" />-->
+    <!--<meta property="og:image" content="" />-->
+    <!--<meta property="og:site_name" content="" />-->
+    <!--<meta property="og:description" content="" />-->
+
+
+<title>borislavstanic</title>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--[if lt IE 9]>
+            <script src="scripts/html5shiv.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+  <div class="main-overlay js-main-overlay"></div>
+      <section class="cover-main" id="home">
+          <header>
+              <nav class="nav-wrapper">
+                  <ul class="menu">
+                      <li><a href="#home">Početna</a></li>
+                      <li><a href="#work">Gifovi</a></li>
+                      <li><a href="#about">O meni</a></li>
+                      <li><a href="#slider">Kolaži</a></li>
+                      <li><a href="#footer">Footer</a></li>
+                  </ul>
+              </nav>
+              <div class="menu-trigger js-menu-trigger"></div>
+          </header>
+          <div class="wrapper">
+            <ul id="scene"
+                  data-invert-x="false"
+                  data-invert-y="false"
+                  data-scalar-x="7"
+                  data-scalar-y="7"
+                  data-friction-x="0.1"
+                  data-friction-y="0.1"
+                  data-origin-x="0.5"
+                  data-origin-y="0.5">
+
+              <li class="layer name" data-depth="0.90">Borislav Stanic</li>
+              <li class="layer title" data-depth="0.50">pesnik i ratnik</li>
+              <li class="layer btn btn-main" data-depth="0.30">
+                <a href="#" class="portfolio-btn">View Portfolio</a>
+                <a href="#" class="contact-btn">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+      </section>
+
+      <section class="masonry-grid" id="work">
+        <h2 class="sub-title">Gifovi</h2>
+        <div class="grid">
+          <div class="grid-item"><img src="images/fourA.jpg" alt=""></div>
+          <div class="grid-item tall-img"><img src="images/tall-img-2a.jpg" alt=""></div>
+          <div class="grid-item"><img src="images/fiveA.jpg" alt=""></div>
+          <div class="grid-item"><img src="images/sixA.jpg" alt=""></div>
+          <div class="grid-item"><img src="images/threeA.jpg" alt=""></div>
+          <div class="grid-item"><img src="images/sevenA.jpg" alt=""></div>
+          <div class="grid-item"><img src="images/eightA.jpg" alt=""></div>
+          <div class="grid-item"><img src="images/nineA.jpg" alt=""></div>
+          <div class="grid-item"><img src="images/tenA.jpg" alt=""></div>
+          <div class="grid-item"><img src="images/elevenA.jpg" alt=""></div>
+        </div>
+      </section>
+
+    <section class="beating-dot" id="about">
+      <div class="wrapper">
+          <h2 class="sub-title">About Me</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru
+          </p>
+          <svg class="dot" height="100" width="100">
+             <circle cx="50" cy="50" r="40" stroke="black" stroke-width="1" fill="white" />
+          </svg>
+      </div>
+    </section>
+
+    <div class="slider-div" id="slider">
+       <h2 class="sub-title">Kolaži</h2>
+       <div class="slider">
+           <div class="slide">
+             <img src="images/elevenA.jpg" alt="" class="img-responsive" />
+           </div>
+           <div class="slide">
+             <img src="images/sixA.jpg" alt="" class="img-responsive" />
+           </div>
+           <div class="slide">
+             <img src="images/fiveA.jpg" alt="" class="img-responsive" />
+           </div>
+           <div class="slide">
+             <img src="images/fourA.jpg" alt="" class="img-responsive" />
+           </div>
+           <div class="slide">
+             <img src="images/threeA.jpg" alt="" class="img-responsive" />
+           </div>
+       </div>
+   </div>
+
+
+   <footer id="footer">
+       <h1>Pišite mi na marta-onjin@gmail.com</h1>
+   </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="scripts/parallax.min.js"></script>
+    <script src="scripts/masonry.js"></script>
+    <script src="scripts/slick.min.js"></script>
+    <script src="scripts/main.js"></script>
+
+    <script>
+      var scene = document.getElementById('scene');
+      var parallax = new Parallax(scene);
+    </script>
+</body>
+</html>
